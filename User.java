@@ -15,22 +15,6 @@ public class User {
         this.password = newPassword;
     }
 
-    public void setUserID(String userID) {
-        this.userID = userID;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public void setUserType(String userType) {
-        this.userType = userType;
-    }
-
     public String getUserID() {
         return userID;
     }
