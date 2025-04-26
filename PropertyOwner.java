@@ -1,10 +1,10 @@
-
+import java.util.List;
 import java.util.ArrayList;
 
 public class PropertyOwner {
 
     private User user;
-    private ArrayList<Property> listOfProperties;
+    private List<Property> listOfProperties;
 
     public PropertyOwner(User user) {
         this.user = user;
@@ -19,7 +19,7 @@ public class PropertyOwner {
         this.user = user;
     }
 
-    public ArrayList<Property> getListOfProperties() {
+    public List<Property> getListOfProperties() {
         return listOfProperties;
     }
 
